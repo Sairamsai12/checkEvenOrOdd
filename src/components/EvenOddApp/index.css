@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  height: 50vh;
+  background-image: linear-gradient(to top, #bfe9ff, #ff6e7f);
+  border-radius: 30px;
+  padding: 20px;
+  margin: 60px;
+}
+
+.title {
+  font-size: 32px;
+  color: #0f172a;
+}
+
+.result {
+  font-size: 26px;
+  color: #334155;
+}
+
+.button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #0f172a;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+.description {
+  font-size: 18px;
+  color: #1e293b;
+}
+
+@media (width <= 768px) {
+  .title {
+    font-size: 28px;
+  }
+  .result {
+    font-size: 24px;
+  }
+  .button {
+    font-size: 16px;
+  }
+  .description {
+    font-size: 16px;
+  }
+}
